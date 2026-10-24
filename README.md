@@ -24,6 +24,11 @@
 docker run -it --rm -p 8000:8000 dockette/redoc:latest
 ```
 
+## Versions
+
+The release version is the date in [`VERSION`](VERSION). CI pushes `latest` also as `dockette/redoc:<VERSION>`.
+To release, run `make release`, commit and push to `master`.
+
 ## Development
 
 See [how to contribute](https://contributte.org/contributing.html) to this package.
